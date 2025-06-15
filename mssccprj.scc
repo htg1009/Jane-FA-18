@@ -1,0 +1,15 @@
+SCC = This is a Source Code Control file
+
+[F18.mak]
+SCC_Project_Name = "$/F-18/develop/source", BGHAAAAA
+
+[xvars.mak]
+SCC_Project_Name = "$/F-18/develop/source", XKHAAAAA
+
+[f18.dsw]
+SCC_Aux_Path = "Z:\JF18\VisualSourceSafe"
+SCC_Project_Name = "$/VC6/F18", CAAAAAAA
+
+[f18.dsp]
+SCC_Aux_Path = "Z:\JF18\VisualSourceSafe"
+SCC_Project_Name = "$/VC6/F18/f18", LFBAAAAA

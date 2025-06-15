@@ -1,0 +1,32 @@
+7
+CATEGORIES
+   Files Modified
+   Palette Info
+¯  Default
+Default~~~!
+Files Modified~~~!
+   Important Steps                         1/7/99 12:31PM  NUM=7
+NUM=7SBJ=Important StepsDO=0DONE=0CD=1/7/99 12:31PMMD=1/7/99 12:40PM
+Make sure to delete all the .lib files from all the projects except F-18
+
+Make sure xvars.mak and the other xvars build files get added to source safe
+Palette Info~~~!
+¯  Palette Names                           12/21/98 4:14PM NUM=4
+   Fire Palette                            12/18/98 2:38PM NUM=3
+   Sky pallette                            12/18/98 2:11PM NUM=2
+NUM=4SBJ=Palette NamesDO=0DONE=0CD=12/21/98 4:14PMMD=12/22/98 3:51PM
+sky.pal (this should be changed later to reflect the various weather states)
+
+These are in the iraq directory
+  FillPaletteSlot(FT_FIRE_PALETTE,"firepal");
+  FillPaletteSlot(FT_TERRAIN_PALETTE,"landpal");
+
+These are in the objects directory
+  FillPaletteSlot(FT_OBJECT_PALETTE,"objpal");
+  FillPaletteSlot(FT_COCKPIT_PALETTE,"cpitpal");
+NUM=3SBJ=Fire PaletteDO=0DONE=0CD=12/18/98 2:38PMMD=12/18/98 2:38PM
+Needs to have some spot to use for missile flares, etc
+NUM=2SBJ=Sky palletteDO=0DONE=0CD=12/18/98 2:11PMMD=12/18/98 2:38PM
+16 ramps of 16 colors each arranged with the lightest colors at the lower color indexes (top of the ramps in DPaint).
+
+the first ramp (far left in DPaint) is 12 midnight to 1:30 AM etc.
