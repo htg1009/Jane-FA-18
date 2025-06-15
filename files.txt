@@ -1,0 +1,11 @@
+ behave.cpp             scott
+ langtext.cpp           scott
+ weapons.cpp            scott
+
+ flight.cpp             greg
+
+ NetWork.cpp            dugan
+
+ rendini.cpp            tom
+
+ weapmanage.cpp         jay

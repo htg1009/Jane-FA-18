@@ -1,0 +1,23 @@
+[Config Name]=F18 - Win32 Release
+[Makefile]=C:\F18\F18.MAK
+[Workdir]=.\Release\
+
+[C:\F18\OSI\]
+[Config Name]=OSI - Win32 Release
+[Makefile]=C:\F18\osi\osi.MAK
+[Workdir]=.\release\
+
+[C:\F18\OSI3DFX\]
+[Config Name]=OSI3Dfx - Win32 Release
+[Makefile]=C:\F18\osi3dfx\osi3dfx.MAK
+[Workdir]=.\Release\
+
+[C:\F18\SKUNKUTL\]
+[Config Name]=SkunkUtl - Win32 Release
+[Makefile]=C:\F18\skunkutl\skunkutl.MAK
+[Workdir]=.\release\
+
+[C:\F18\WRAPPERS\]
+[Config Name]=Wrapper - Win32 Release
+[Makefile]=C:\F18\wrappers\wrapper.MAK
+[Workdir]=.\release\

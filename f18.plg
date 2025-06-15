@@ -1,0 +1,2188 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SkunkCmp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP8B54.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR".\Debug/" /Fp".\Debug/SkunkCmp.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkCmp\cat.cpp"
+"Z:\JF18\F18_SRC\SkunkCmp\CatCreate.cpp"
+"Z:\JF18\F18_SRC\SkunkCmp\Chunk.cpp"
+"Z:\JF18\F18_SRC\SkunkCmp\Dcl.cpp"
+"Z:\JF18\F18_SRC\SkunkCmp\SkunkCmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP8B54.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP8B55.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkCmp.pdb" /debug /machine:I386 /nodefaultlib:"LIBC.lib" /out:".\bin\SkunkCmp.dll" /implib:"Z:\JF18\F18_SRC\SkunkCmp.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\cat.obj
+.\Debug\CatCreate.obj
+.\Debug\Chunk.obj
+.\Debug\Dcl.obj
+.\Debug\SkunkCmp.obj
+.\Implode.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP8B55.tmp"
+<h3>Output Window</h3>
+Compiling...
+cat.cpp
+CatCreate.cpp
+Chunk.cpp
+Dcl.cpp
+SkunkCmp.cpp
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkCmp.lib and object Z:\JF18\F18_SRC\SkunkCmp.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/SkunkCmp.bsc"  .\Debug\cat.sbr .\Debug\CatCreate.sbr .\Debug\Chunk.sbr .\Debug\Dcl.sbr .\Debug\SkunkCmp.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9A83.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9A83.bat"
+
+.\bin\SkunkCmp.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkCtl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/SkunkCtl.res" /d "_DEBUG" "Z:\JF18\F18_SRC\SkunkCtl\SkunkCtl.rc"" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9B4F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "_SKUNKCTL_DLL" /D "WIN32" /D "_WINDOWS" /FR".\Debug/" /Fp".\Debug/SkunkCtl.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkCtl\CCtlDropdown.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\Control.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\ControlUtil.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlBall.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlButton.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlEdit.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlGasGauge.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlListbox.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlScrollbar.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlText.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlTitledDropdown.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlTree.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\CtlWnd.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\SkunkCtl.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\Sprite.cpp"
+"Z:\JF18\F18_SRC\SkunkCtl\TrueTypeFont.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9B4F.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9B50.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib comctl32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkCtl.pdb" /debug /machine:I386 /out:".\bin\SkunkCtl.dll" /implib:"Z:\JF18\F18_SRC\SkunkCtl.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\CCtlDropdown.obj
+.\Debug\Control.obj
+.\Debug\ControlUtil.obj
+.\Debug\CtlBall.obj
+.\Debug\CtlButton.obj
+.\Debug\CtlEdit.obj
+.\Debug\CtlGasGauge.obj
+.\Debug\CtlListbox.obj
+.\Debug\CtlScrollbar.obj
+.\Debug\CtlText.obj
+.\Debug\CtlTitledDropdown.obj
+.\Debug\CtlTree.obj
+.\Debug\CtlWnd.obj
+.\Debug\SkunkCtl.obj
+.\Debug\Sprite.obj
+.\Debug\TrueTypeFont.obj
+.\Debug\SkunkCtl.res
+\JF18\F18_SRC\SkunkCmp.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP9B50.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CCtlDropdown.cpp
+Control.cpp
+ControlUtil.cpp
+CtlBall.cpp
+CtlButton.cpp
+CtlEdit.cpp
+Z:\JF18\F18_SRC\SkunkCtl\CtlEdit.cpp(430) : warning C4101: 'pNextLine' : unreferenced local variable
+Z:\JF18\F18_SRC\SkunkCtl\CtlEdit.cpp(429) : warning C4101: 'pLine' : unreferenced local variable
+Z:\JF18\F18_SRC\SkunkCtl\CtlEdit.cpp(431) : warning C4101: 'nChars' : unreferenced local variable
+CtlGasGauge.cpp
+CtlListbox.cpp
+CtlScrollbar.cpp
+CtlText.cpp
+CtlTitledDropdown.cpp
+CtlTree.cpp
+CtlWnd.cpp
+SkunkCtl.cpp
+Sprite.cpp
+TrueTypeFont.cpp
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkCtl.lib and object Z:\JF18\F18_SRC\SkunkCtl.exp
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPC50F.tmp" with contents
+[
+/nologo /o".\Debug/SkunkCtl.bsc" 
+.\Debug\CCtlDropdown.sbr
+.\Debug\Control.sbr
+.\Debug\ControlUtil.sbr
+.\Debug\CtlBall.sbr
+.\Debug\CtlButton.sbr
+.\Debug\CtlEdit.sbr
+.\Debug\CtlGasGauge.sbr
+.\Debug\CtlListbox.sbr
+.\Debug\CtlScrollbar.sbr
+.\Debug\CtlText.sbr
+.\Debug\CtlTitledDropdown.sbr
+.\Debug\CtlTree.sbr
+.\Debug\CtlWnd.sbr
+.\Debug\SkunkCtl.sbr
+.\Debug\Sprite.sbr
+.\Debug\TrueTypeFont.sbr]
+Creating command line "bscmake.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPC50F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPC973.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPC973.bat"
+
+.\bin\SkunkCtl.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkFF - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCA2F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR".\Debug/" /Fp".\Debug/SkunkFF.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkFF\SkunkFF.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCA2F.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCA30.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib dinput.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkFF.pdb" /debug /machine:I386 /out:".\bin\SkunkFF.dll" /implib:"Z:\JF18\F18_SRC\SkunkFF.lib" 
+.\Debug\SkunkFF.obj
+.\IFORCE2.lib
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCA30.tmp"
+<h3>Output Window</h3>
+Compiling...
+SkunkFF.cpp
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Z:\JF18\F18_SRC\SkunkFF.lib and object Z:\JF18\F18_SRC\SkunkFF.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/SkunkFF.bsc"  .\Debug\SkunkFF.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCED3.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCED3.bat"
+
+.\bin\SkunkFF.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkNet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCFDD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "F18DLL" /Fr".\Debug/" /Fp".\Debug/SkunkNet.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkNet\F18play.cpp"
+"Z:\JF18\F18_SRC\SkunkNet\SkunkNet.c"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCFDD.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCFDE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib dxguid.lib dplayx.lib /nologo /base:"0x11000000" /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkNet.pdb" /debug /machine:I386 /out:".\bin\SkunkNet.dll" /implib:"Z:\JF18\F18_SRC\SkunkNet.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\F18play.obj
+.\Debug\SkunkNet.obj
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCFDE.tmp"
+<h3>Output Window</h3>
+Compiling...
+F18play.cpp
+SkunkNet.c
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkNet.lib and object Z:\JF18\F18_SRC\SkunkNet.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/SkunkNet.bsc"  .\Debug\F18play.sbr .\Debug\SkunkNet.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD693.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD693.bat"
+
+.\bin\SkunkNet.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkSnd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD701.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_CRTDBG_MAP_ALLOC" /Fr".\Debug/" /Fp".\Debug/SkunkSnd.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkSnd\Mmio.cpp"
+"Z:\JF18\F18_SRC\SkunkSnd\SkunkSnd.cpp"
+"Z:\JF18\F18_SRC\SkunkSnd\SndCatObj.cpp"
+"Z:\JF18\F18_SRC\SkunkSnd\SoundObj.cpp"
+"Z:\JF18\F18_SRC\SkunkSnd\Stream.cpp"
+"Z:\JF18\F18_SRC\SkunkSnd\Wave.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD701.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD702.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mss32.lib winmm.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkSnd.pdb" /debug /machine:I386 /out:".\bin\SkunkSnd.dll" /implib:"Z:\JF18\F18_SRC\SkunkSnd.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\Mmio.obj
+.\Debug\SkunkSnd.obj
+.\Debug\SndCatObj.obj
+.\Debug\SoundObj.obj
+.\Debug\Stream.obj
+.\Debug\Wave.obj
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+\JF18\F18_SRC\SkunkNet.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPD702.tmp"
+<h3>Output Window</h3>
+Compiling...
+Mmio.cpp
+SkunkSnd.cpp
+SndCatObj.cpp
+SoundObj.cpp
+Stream.cpp
+Wave.cpp
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkSnd.lib and object Z:\JF18\F18_SRC\SkunkSnd.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/SkunkSnd.bsc"  .\Debug\Mmio.sbr .\Debug\SkunkSnd.sbr .\Debug\SndCatObj.sbr .\Debug\SoundObj.sbr .\Debug\Stream.sbr .\Debug\Wave.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE2A7.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE2A7.bat"
+
+.\bin\SkunkSnd.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkUtl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/SkunkUtl.res" /d "_DEBUG" /d "_AFXDLL" "Z:\JF18\F18_SRC\SkunkUtl\SkunkUtl.rc"" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fr".\Debug/" /Fp".\Debug/SkunkUtl.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkUtl\BmpButton.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\BmpCheckBox.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\CustFont.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\DDSprite.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\GDISprite.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\InvStatic.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\SkunkEdit.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\SkunkListBox.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\SkunkListWnd.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\SkunkScrollBar.cpp"
+"Z:\JF18\F18_SRC\SkunkUtl\SkunkUtl.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C1.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fr".\Debug/" /Fp".\Debug/SkunkUtl.pch" /Yc"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkUtl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C2.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C3.tmp" with contents
+[
+ddraw.lib winmm.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkUtl.pdb" /debug /machine:I386 /def:".\SkunkUtl.def" /out:".\bin\SkunkUtl.dll" /implib:"Z:\JF18\F18_SRC\SkunkUtl.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\BmpButton.obj
+.\Debug\BmpCheckBox.obj
+.\Debug\CustFont.obj
+.\Debug\DDSprite.obj
+.\Debug\GDISprite.obj
+.\Debug\InvStatic.obj
+.\Debug\SkunkEdit.obj
+.\Debug\SkunkListBox.obj
+.\Debug\SkunkListWnd.obj
+.\Debug\SkunkScrollBar.obj
+.\Debug\SkunkUtl.obj
+.\Debug\StdAfx.obj
+.\Debug\SkunkUtl.res
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+\JF18\F18_SRC\SkunkNet.lib
+\JF18\F18_SRC\SkunkSnd.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE3C3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BmpButton.cpp
+BmpCheckBox.cpp
+CustFont.cpp
+DDSprite.cpp
+GDISprite.cpp
+InvStatic.cpp
+SkunkEdit.cpp
+SkunkListBox.cpp
+SkunkListWnd.cpp
+SkunkScrollBar.cpp
+SkunkUtl.cpp
+Generating Code...
+Z:\JF18\F18_SRC\SkunkUtl\SkunkEdit.cpp(173) : warning C4700: local variable 'rc' used without having been initialized
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkUtl.lib and object Z:\JF18\F18_SRC\SkunkUtl.exp
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEB62.tmp" with contents
+[
+/nologo /o".\Debug/SkunkUtl.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BmpButton.sbr
+.\Debug\BmpCheckBox.sbr
+.\Debug\CustFont.sbr
+.\Debug\DDSprite.sbr
+.\Debug\GDISprite.sbr
+.\Debug\InvStatic.sbr
+.\Debug\SkunkEdit.sbr
+.\Debug\SkunkListBox.sbr
+.\Debug\SkunkListWnd.sbr
+.\Debug\SkunkScrollBar.sbr
+.\Debug\SkunkUtl.sbr]
+Creating command line "bscmake.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEB62.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEDD3.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEDD3.bat"
+
+.\bin\SkunkUtl.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SkunkVid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEEAE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fr".\Debug/" /Fp".\Debug/SkunkVid.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\SkunkVid\SkunkVid.cpp"
+"Z:\JF18\F18_SRC\SkunkVid\SmkVideo.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEEAE.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEEAF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Smkw32Ms.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/SkunkVid.pdb" /debug /machine:I386 /out:".\bin\SkunkVid.dll" /implib:"Z:\JF18\F18_SRC\SkunkVid.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\SkunkVid.obj
+.\Debug\SmkVideo.obj
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+\JF18\F18_SRC\SkunkNet.lib
+\JF18\F18_SRC\SkunkSnd.lib
+\JF18\F18_SRC\SkunkUtl.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPEEAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+SkunkVid.cpp
+SmkVideo.cpp
+Linking...
+   Creating library Z:\JF18\F18_SRC\SkunkVid.lib and object Z:\JF18\F18_SRC\SkunkVid.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/SkunkVid.bsc"  .\Debug\SkunkVid.sbr .\Debug\SmkVideo.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF5C2.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF5C2.bat"
+
+.\bin\SkunkVid.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: UV - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF66E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fr".\Debug/" /Fp".\Debug/UV.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\UV\movplyr.cpp"
+"Z:\JF18\F18_SRC\UV\UV.cpp"
+"Z:\JF18\F18_SRC\UV\uv_audio.cpp"
+"Z:\JF18\F18_SRC\UV\uv_video.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF66E.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF66F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib uva.obj skunkcmp.lib skunkctl.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/UV.pdb" /debug /machine:I386 /out:".\bin\UV.dll" /implib:"Z:\JF18\F18_SRC\UV.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\movplyr.obj
+.\Debug\UV.obj
+.\Debug\uv_audio.obj
+.\Debug\uv_video.obj
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+\JF18\F18_SRC\SkunkNet.lib
+\JF18\F18_SRC\SkunkSnd.lib
+\JF18\F18_SRC\SkunkUtl.lib
+\JF18\F18_SRC\SkunkVid.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF66F.tmp"
+<h3>Output Window</h3>
+Compiling...
+movplyr.cpp
+UV.cpp
+uv_audio.cpp
+uv_video.cpp
+Z:\JF18\F18_SRC\UV\uv_video.cpp(441) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Z:\JF18\F18_SRC\UV\uv_video.cpp(442) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Z:\JF18\F18_SRC\UV\uv_video.cpp(443) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+Linking...
+   Creating library Z:\JF18\F18_SRC\UV.lib and object Z:\JF18\F18_SRC\UV.exp
+Creating command line "bscmake.exe /nologo /o".\Debug/UV.bsc"  .\Debug\movplyr.sbr .\Debug\UV.sbr .\Debug\uv_audio.sbr .\Debug\uv_video.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFFB3.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFFB3.bat"
+
+.\bin\UV.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: Wrapper - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/Wrapper.res" /d "_DEBUG" /d "_AFXDLL" "Z:\JF18\F18_SRC\Wrappers\Wrapper.rc"" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC\SkunkCtl" /I "Z:\JF18\F18_SRC\SkunkUtl" /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "_MBCS" /D "GAME_VERSION" /D "F18LIB" /D "_WINDLL" /D "_AFXDLL" /Fr".\Debug/" /Fp".\Debug/Wrapper.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\Wrappers\ActionSelectDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\AlertActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\AreaEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\AwacsActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BaseWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BombProfileDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BriefingDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BriefWPDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BuilderDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\BuilderTargeting.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ButtonBar.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamAirFrameInfo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamCrewStatus.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamDelete.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamDriver.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamInventory.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionBrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionCrew.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionCustomArm.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionIntel.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionMap.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionOverview.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamMissionTargeting.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampaignGoalDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampDebugDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampEvaluate.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampGoalOverDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampResource.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampRndDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CampSupport.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamSelect.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamSetupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamText.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CamVideo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CapDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CASDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBAddGlobalLinkDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBAddGroupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBAddNodeDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBAddNodeResourceDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBAddVarDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBCampGroupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBCampResourceModDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBGlobalLinkDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBLinkDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBNodeResourceDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBNodeVarDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBOptionsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBResourceDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBSetupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBuilder.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBuilderDraw.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CBVarDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustAvionicsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustEnemyDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustFlightDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustGraphicsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustGraphicsDriverDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustObjectDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustomDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustTerrainDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgCustWeaponDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgGamePlayDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgGraphicsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgJoyDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgJoyFFDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgMiscDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgSoundDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CfgViewsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CheatsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ChkPilotMission.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CmpSprite.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CommonButtons.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CommonSprite.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ConfigCustomKeyboard.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ConfigKeyboardNew.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ConfigMenu.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Credits.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlPilot.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlPlane.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlQckPilot.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlSngInvInfo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlSngInvItem.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlToolPilotInfo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlToolSquadInfo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\CtlWeapon.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DamageDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebMapOptionsDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Debrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefDetail.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefGroupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefGroupSelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefItemDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefMap.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefStatementDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefStateSelectDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DebriefView.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DeleteDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DeleteLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoBrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoExit.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoIntroText.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoKeyboard.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoSorry.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DemoSplash.cpp"
+"Z:\JF18\F18_SRC\Wrappers\DlgSuperClass.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EnterEdit.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EscortDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EscortReleaseDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventActDamageDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventActFlagDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventActionSelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventActMessDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventCondDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventLog.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EventSelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\EyePointDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\F18ArmingTable.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FACDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FenceDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FighterSweepDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FilterDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Fixup.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FormationDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FormOnDLg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FormOnReleaseDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FtpMgr.cpp"
+"Z:\JF18\F18_SRC\Wrappers\FtpSession.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GameExit.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GenWarnDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GoalEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GroundObjectDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GroundWarnDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\GroupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\HelpDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\HoldHorses.cpp"
+"Z:\JF18\F18_SRC\Wrappers\HostLeftDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\HoverActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\InfoDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\InfoTip.cpp"
+"Z:\JF18\F18_SRC\Wrappers\initdb.cpp"
+"Z:\JF18\F18_SRC\Wrappers\InvEdit.cpp"
+"Z:\JF18\F18_SRC\Wrappers\InvEditWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\JoyCalc.cpp"
+"Z:\JF18\F18_SRC\Wrappers\JoyMsg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\KeyMsgDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\lang.cpp"
+"Z:\JF18\F18_SRC\Wrappers\LayoutAircraft.cpp"
+"Z:\JF18\F18_SRC\Wrappers\LegalScreen.cpp"
+"Z:\JF18\F18_SRC\Wrappers\LoadKeyLayoutDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\LoadLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\LoopProcess.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MapWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MasterWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBAddSplash.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBAntiShipActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBASWActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBAttackTargetActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBBriefingSummaryDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBCheckListAddDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBCmd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBCommandDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBEnvDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBExitDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBFACActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBFileio.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBFlowControl.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBGotoSerial.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBGPSMarkerDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBHelpWin.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBLogSuppDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBMovingAreaEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBMVWPDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBSARDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBShipDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBShipWPDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBStandDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBUserFlagActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBViewAction.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MBWeaponAreaGoalDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MessageActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissBuild.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissInfoDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissionEndEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissionImageView.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissionLabelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MissionMapTab.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltHostJoin.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltHostOpts.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltHostSetupMissionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltJoinOpts.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltMissionType.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltPartyLine.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MltSessions.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MovingVehicleDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MultiChatWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MultiMenu.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MultiMisc.cpp"
+"Z:\JF18\F18_SRC\Wrappers\MultiMonitor.cpp"
+"Z:\JF18\F18_SRC\Wrappers\NewJanesViewer.cpp"
+"Z:\JF18\F18_SRC\Wrappers\NewWarnDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ObjectEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ObjectInfoDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\oldmb.cpp"
+"Z:\JF18\F18_SRC\Wrappers\OpenAnim.cpp"
+"Z:\JF18\F18_SRC\Wrappers\OpenLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\OrbitDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\PackageDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Pilot.cpp"
+"Z:\JF18\F18_SRC\Wrappers\PilotStats.cpp"
+"Z:\JF18\F18_SRC\Wrappers\PlaneDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\PlaneInfo.cpp"
+"Z:\JF18\F18_SRC\Wrappers\PopulateDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckAirSelect.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckDebrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckLangDefs.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckMain.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckMissionLoad.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckOption.cpp"
+"Z:\JF18\F18_SRC\Wrappers\QckPopUpWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\RandomGroupDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\RepStatic.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ROEDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\RTFView.cpp"
+"Z:\JF18\F18_SRC\Wrappers\RTFWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SaveKeyLayoutDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SaveLdt.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SaveLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SEADDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SelectGoalDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SimLaunch.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SingleObjectGoalDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SliderHorz.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngAirframeStatus.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngDebriefFltKills.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngDebriefFltStats.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngDebriefFltStatus.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngDebriefTimeLog.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionAirframe.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionBrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionCrew.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionCustomArm.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionIntel.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionLoad.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionMap.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionOverview.cpp"
+"Z:\JF18\F18_SRC\Wrappers\SngMissionTargeting.cpp"
+"Z:\JF18\F18_SRC\Wrappers\StartWnd.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TacanDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TakeOffDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TankerActionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TargetLabelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TimeEventDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ToolPilot.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ToolsMenu.cpp"
+"Z:\JF18\F18_SRC\Wrappers\ToolSquadron.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionBrief.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionCrew.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionCustomArm.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionIntel.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionLoad.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionLoadout.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionMap.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionOverview.cpp"
+"Z:\JF18\F18_SRC\Wrappers\TrnMissionTargeting.cpp"
+"Z:\JF18\F18_SRC\Wrappers\UserDecisionDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\VehicleIconDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Viewer3D.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WarnDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WarnGoalDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WarnSetFlagDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WayPointDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WaypointIconDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WayWarningDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WndMgr.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WorldLabelDlg.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WrapInterface.cpp"
+"Z:\JF18\F18_SRC\Wrappers\Wrapper.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WrapperObjects.cpp"
+"Z:\JF18\F18_SRC\Wrappers\WrapUtil.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFC.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC\SkunkCtl" /I "Z:\JF18\F18_SRC\SkunkUtl" /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "_MBCS" /D "GAME_VERSION" /D "F18LIB" /D "_WINDLL" /D "_AFXDLL" /Fr".\Debug/" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\Wrappers\Resources.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFD.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "Z:\JF18\F18_SRC\SkunkCtl" /I "Z:\JF18\F18_SRC\SkunkUtl" /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_USRDLL" /D "_MBCS" /D "GAME_VERSION" /D "F18LIB" /D "_WINDLL" /D "_AFXDLL" /Fr".\Debug/" /Fp".\Debug/Wrapper.pch" /Yc"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\Wrappers\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFE.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFF.tmp" with contents
+[
+Uv.lib shell32.lib version.lib SkunkUtl.lib ddraw.lib winmm.lib SkunkCmp.lib SkunkSnd.lib SkunkNet.lib dxguid.lib SkunkVid.lib SkunkCtl.lib rpcrt4.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Debug/Wrapper.pdb" /map:".\Debug/Wrapper.map" /debug /machine:I386 /def:".\Wrapper.def" /out:".\bin\Wrapper.dll" /implib:"Z:\JF18\F18_SRC\Wrapper.lib" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\ActionSelectDlg.obj
+.\Debug\AlertActionDlg.obj
+.\Debug\AreaEventDlg.obj
+.\Debug\AwacsActionDlg.obj
+.\Debug\BaseWnd.obj
+.\Debug\BombProfileDlg.obj
+.\Debug\BriefingDlg.obj
+.\Debug\BriefWPDlg.obj
+.\Debug\BuilderDlg.obj
+.\Debug\BuilderTargeting.obj
+.\Debug\ButtonBar.obj
+.\Debug\CamAirFrameInfo.obj
+.\Debug\CamCrewStatus.obj
+.\Debug\CamDelete.obj
+.\Debug\CamDriver.obj
+.\Debug\CamInventory.obj
+.\Debug\CamMissionBrief.obj
+.\Debug\CamMissionCrew.obj
+.\Debug\CamMissionCustomArm.obj
+.\Debug\CamMissionIntel.obj
+.\Debug\CamMissionLoadout.obj
+.\Debug\CamMissionMap.obj
+.\Debug\CamMissionOverview.obj
+.\Debug\CamMissionTargeting.obj
+.\Debug\CampaignGoalDlg.obj
+.\Debug\CampDebugDlg.obj
+.\Debug\CampEvaluate.obj
+.\Debug\CampGoalOverDlg.obj
+.\Debug\CampResource.obj
+.\Debug\CampRndDlg.obj
+.\Debug\CampSupport.obj
+.\Debug\CamSelect.obj
+.\Debug\CamSetupDlg.obj
+.\Debug\CamText.obj
+.\Debug\CamVideo.obj
+.\Debug\CapDlg.obj
+.\Debug\CASDlg.obj
+.\Debug\CBAddGlobalLinkDlg.obj
+.\Debug\CBAddGroupDlg.obj
+.\Debug\CBAddNodeDlg.obj
+.\Debug\CBAddNodeResourceDlg.obj
+.\Debug\CBAddVarDlg.obj
+.\Debug\CBCampGroupDlg.obj
+.\Debug\CBCampResourceModDlg.obj
+.\Debug\CBGlobalLinkDlg.obj
+.\Debug\CBLinkDlg.obj
+.\Debug\CBNodeResourceDlg.obj
+.\Debug\CBNodeVarDlg.obj
+.\Debug\CBOptionsDlg.obj
+.\Debug\CBResourceDlg.obj
+.\Debug\CBSetupDlg.obj
+.\Debug\CBuilder.obj
+.\Debug\CBuilderDraw.obj
+.\Debug\CBVarDlg.obj
+.\Debug\CfgCustAvionicsDlg.obj
+.\Debug\CfgCustEnemyDlg.obj
+.\Debug\CfgCustFlightDlg.obj
+.\Debug\CfgCustGraphicsDlg.obj
+.\Debug\CfgCustGraphicsDriverDlg.obj
+.\Debug\CfgCustObjectDlg.obj
+.\Debug\CfgCustomDlg.obj
+.\Debug\CfgCustTerrainDlg.obj
+.\Debug\CfgCustWeaponDlg.obj
+.\Debug\CfgGamePlayDlg.obj
+.\Debug\CfgGraphicsDlg.obj
+.\Debug\CfgJoyDlg.obj
+.\Debug\CfgJoyFFDlg.obj
+.\Debug\CfgMiscDlg.obj
+.\Debug\CfgSoundDlg.obj
+.\Debug\CfgViewsDlg.obj
+.\Debug\CheatsDlg.obj
+.\Debug\ChkPilotMission.obj
+.\Debug\CmpSprite.obj
+.\Debug\CommonButtons.obj
+.\Debug\CommonSprite.obj
+.\Debug\ConfigCustomKeyboard.obj
+.\Debug\ConfigKeyboardNew.obj
+.\Debug\ConfigMenu.obj
+.\Debug\Credits.obj
+.\Debug\CtlLoadout.obj
+.\Debug\CtlPilot.obj
+.\Debug\CtlPlane.obj
+.\Debug\CtlQckPilot.obj
+.\Debug\CtlSngInvInfo.obj
+.\Debug\CtlSngInvItem.obj
+.\Debug\CtlToolPilotInfo.obj
+.\Debug\CtlToolSquadInfo.obj
+.\Debug\CtlWeapon.obj
+.\Debug\DamageDlg.obj
+.\Debug\DebMapOptionsDlg.obj
+.\Debug\Debrief.obj
+.\Debug\DebriefDetail.obj
+.\Debug\DebriefDlg.obj
+.\Debug\DebriefGroupDlg.obj
+.\Debug\DebriefGroupSelDlg.obj
+.\Debug\DebriefItemDlg.obj
+.\Debug\DebriefMap.obj
+.\Debug\DebriefStatementDlg.obj
+.\Debug\DebriefStateSelectDlg.obj
+.\Debug\DebriefView.obj
+.\Debug\DeleteDlg.obj
+.\Debug\DeleteLoadout.obj
+.\Debug\DemoBrief.obj
+.\Debug\DemoExit.obj
+.\Debug\DemoIntroText.obj
+.\Debug\DemoKeyboard.obj
+.\Debug\DemoSorry.obj
+.\Debug\DemoSplash.obj
+.\Debug\DlgSuperClass.obj
+.\Debug\EnterEdit.obj
+.\Debug\EscortDlg.obj
+.\Debug\EscortReleaseDlg.obj
+.\Debug\EventActDamageDlg.obj
+.\Debug\EventActFlagDlg.obj
+.\Debug\EventActionSelDlg.obj
+.\Debug\EventActMessDlg.obj
+.\Debug\EventCondDlg.obj
+.\Debug\EventDlg.obj
+.\Debug\EventLog.obj
+.\Debug\EventSelDlg.obj
+.\Debug\EyePointDlg.obj
+.\Debug\F18ArmingTable.obj
+.\Debug\FACDlg.obj
+.\Debug\FenceDlg.obj
+.\Debug\FighterSweepDlg.obj
+.\Debug\FilterDlg.obj
+.\Debug\Fixup.obj
+.\Debug\FormationDlg.obj
+.\Debug\FormOnDLg.obj
+.\Debug\FormOnReleaseDlg.obj
+.\Debug\FtpMgr.obj
+.\Debug\FtpSession.obj
+.\Debug\GameExit.obj
+.\Debug\GenWarnDlg.obj
+.\Debug\GoalEventDlg.obj
+.\Debug\GroundObjectDlg.obj
+.\Debug\GroundWarnDlg.obj
+.\Debug\GroupDlg.obj
+.\Debug\HelpDlg.obj
+.\Debug\HoldHorses.obj
+.\Debug\HostLeftDlg.obj
+.\Debug\HoverActionDlg.obj
+.\Debug\InfoDlg.obj
+.\Debug\InfoTip.obj
+.\Debug\initdb.obj
+.\Debug\InvEdit.obj
+.\Debug\InvEditWnd.obj
+.\Debug\JoyCalc.obj
+.\Debug\JoyMsg.obj
+.\Debug\KeyMsgDlg.obj
+.\Debug\lang.obj
+.\Debug\LayoutAircraft.obj
+.\Debug\LegalScreen.obj
+.\Debug\LoadKeyLayoutDlg.obj
+.\Debug\LoadLoadout.obj
+.\Debug\LoopProcess.obj
+.\Debug\MapWnd.obj
+.\Debug\MasterWnd.obj
+.\Debug\MBAddSplash.obj
+.\Debug\MBAntiShipActionDlg.obj
+.\Debug\MBASWActionDlg.obj
+.\Debug\MBAttackTargetActionDlg.obj
+.\Debug\MBBriefingSummaryDlg.obj
+.\Debug\MBCheckListAddDlg.obj
+.\Debug\MBCmd.obj
+.\Debug\MBCommandDlg.obj
+.\Debug\MBEnvDlg.obj
+.\Debug\MBExitDlg.obj
+.\Debug\MBFACActionDlg.obj
+.\Debug\MBFileio.obj
+.\Debug\MBFlowControl.obj
+.\Debug\MBGotoSerial.obj
+.\Debug\MBGPSMarkerDlg.obj
+.\Debug\MBHelpWin.obj
+.\Debug\MBLogSuppDlg.obj
+.\Debug\MBMovingAreaEventDlg.obj
+.\Debug\MBMVWPDlg.obj
+.\Debug\MBSARDlg.obj
+.\Debug\MBShipDlg.obj
+.\Debug\MBShipWPDlg.obj
+.\Debug\MBStandDlg.obj
+.\Debug\MBUserFlagActionDlg.obj
+.\Debug\MBViewAction.obj
+.\Debug\MBWeaponAreaGoalDlg.obj
+.\Debug\MessageActionDlg.obj
+.\Debug\MissBuild.obj
+.\Debug\MissInfoDlg.obj
+.\Debug\MissionEndEventDlg.obj
+.\Debug\MissionImageView.obj
+.\Debug\MissionLabelDlg.obj
+.\Debug\MissionMapTab.obj
+.\Debug\MltHostJoin.obj
+.\Debug\MltHostOpts.obj
+.\Debug\MltHostSetupMissionDlg.obj
+.\Debug\MltJoinOpts.obj
+.\Debug\MltMissionType.obj
+.\Debug\MltPartyLine.obj
+.\Debug\MltSessions.obj
+.\Debug\MovingVehicleDlg.obj
+.\Debug\MultiChatWnd.obj
+.\Debug\MultiMenu.obj
+.\Debug\MultiMisc.obj
+.\Debug\MultiMonitor.obj
+.\Debug\NewJanesViewer.obj
+.\Debug\NewWarnDlg.obj
+.\Debug\ObjectEventDlg.obj
+.\Debug\ObjectInfoDlg.obj
+.\Debug\oldmb.obj
+.\Debug\OpenAnim.obj
+.\Debug\OpenLoadout.obj
+.\Debug\OrbitDlg.obj
+.\Debug\PackageDlg.obj
+.\Debug\Pilot.obj
+.\Debug\PilotStats.obj
+.\Debug\PlaneDlg.obj
+.\Debug\PlaneInfo.obj
+.\Debug\PopulateDlg.obj
+.\Debug\QckAirSelect.obj
+.\Debug\QckDebrief.obj
+.\Debug\QckLangDefs.obj
+.\Debug\QckMain.obj
+.\Debug\QckMissionLoad.obj
+.\Debug\QckOption.obj
+.\Debug\QckPopUpWnd.obj
+.\Debug\RandomGroupDlg.obj
+.\Debug\RepStatic.obj
+.\Debug\Resources.obj
+.\Debug\ROEDlg.obj
+.\Debug\RTFView.obj
+.\Debug\RTFWnd.obj
+.\Debug\SaveKeyLayoutDlg.obj
+.\Debug\SaveLdt.obj
+.\Debug\SaveLoadout.obj
+.\Debug\SEADDlg.obj
+.\Debug\SelectGoalDlg.obj
+.\Debug\SimLaunch.obj
+.\Debug\SingleObjectGoalDlg.obj
+.\Debug\SliderHorz.obj
+.\Debug\SngAirframeStatus.obj
+.\Debug\SngDebriefFltKills.obj
+.\Debug\SngDebriefFltStats.obj
+.\Debug\SngDebriefFltStatus.obj
+.\Debug\SngDebriefTimeLog.obj
+.\Debug\SngMissionAirframe.obj
+.\Debug\SngMissionBrief.obj
+.\Debug\SngMissionCrew.obj
+.\Debug\SngMissionCustomArm.obj
+.\Debug\SngMissionIntel.obj
+.\Debug\SngMissionLoad.obj
+.\Debug\SngMissionLoadout.obj
+.\Debug\SngMissionMap.obj
+.\Debug\SngMissionOverview.obj
+.\Debug\SngMissionTargeting.obj
+.\Debug\StartWnd.obj
+.\Debug\StdAfx.obj
+.\Debug\TacanDlg.obj
+.\Debug\TakeOffDlg.obj
+.\Debug\TankerActionDlg.obj
+.\Debug\TargetLabelDlg.obj
+.\Debug\TimeEventDlg.obj
+.\Debug\ToolPilot.obj
+.\Debug\ToolsMenu.obj
+.\Debug\ToolSquadron.obj
+.\Debug\TrnMissionBrief.obj
+.\Debug\TrnMissionCrew.obj
+.\Debug\TrnMissionCustomArm.obj
+.\Debug\TrnMissionIntel.obj
+.\Debug\TrnMissionLoad.obj
+.\Debug\TrnMissionLoadout.obj
+.\Debug\TrnMissionMap.obj
+.\Debug\TrnMissionOverview.obj
+.\Debug\TrnMissionTargeting.obj
+.\Debug\UserDecisionDlg.obj
+.\Debug\VehicleIconDlg.obj
+.\Debug\Viewer3D.obj
+.\Debug\WarnDlg.obj
+.\Debug\WarnGoalDlg.obj
+.\Debug\WarnSetFlagDlg.obj
+.\Debug\WayPointDlg.obj
+.\Debug\WaypointIconDlg.obj
+.\Debug\WayWarningDlg.obj
+.\Debug\WndMgr.obj
+.\Debug\WorldLabelDlg.obj
+.\Debug\WrapInterface.obj
+.\Debug\Wrapper.obj
+.\Debug\WrapperObjects.obj
+.\Debug\WrapUtil.obj
+.\Debug\Wrapper.res
+\JF18\F18_SRC\SkunkUtl.lib
+\JF18\F18_SRC\UV.lib
+\JF18\F18_SRC\SkunkSnd.lib
+\JF18\F18_SRC\SkunkNet.lib
+\JF18\F18_SRC\SkunkVid.lib
+\JF18\F18_SRC\SkunkCmp.lib
+\JF18\F18_SRC\SkunkCtl.lib
+\JF18\F18_SRC\SkunkFF.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPFF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ActionSelectDlg.cpp
+AlertActionDlg.cpp
+AreaEventDlg.cpp
+AwacsActionDlg.cpp
+BaseWnd.cpp
+BombProfileDlg.cpp
+BriefingDlg.cpp
+BriefWPDlg.cpp
+BuilderDlg.cpp
+BuilderTargeting.cpp
+ButtonBar.cpp
+CamAirFrameInfo.cpp
+CamCrewStatus.cpp
+CamDelete.cpp
+CamDriver.cpp
+CamInventory.cpp
+CamMissionBrief.cpp
+CamMissionCrew.cpp
+CamMissionCustomArm.cpp
+CamMissionIntel.cpp
+Generating Code...
+Compiling...
+CamMissionLoadout.cpp
+CamMissionMap.cpp
+CamMissionOverview.cpp
+CamMissionTargeting.cpp
+CampaignGoalDlg.cpp
+CampDebugDlg.cpp
+CampEvaluate.cpp
+CampGoalOverDlg.cpp
+CampResource.cpp
+CampRndDlg.cpp
+CampSupport.cpp
+CamSelect.cpp
+CamSetupDlg.cpp
+CamText.cpp
+CamVideo.cpp
+CapDlg.cpp
+CASDlg.cpp
+CBAddGlobalLinkDlg.cpp
+CBAddGroupDlg.cpp
+CBAddNodeDlg.cpp
+Generating Code...
+Compiling...
+CBAddNodeResourceDlg.cpp
+CBAddVarDlg.cpp
+CBCampGroupDlg.cpp
+CBCampResourceModDlg.cpp
+CBGlobalLinkDlg.cpp
+CBLinkDlg.cpp
+CBNodeResourceDlg.cpp
+CBNodeVarDlg.cpp
+CBOptionsDlg.cpp
+CBResourceDlg.cpp
+CBSetupDlg.cpp
+CBuilder.cpp
+CBuilderDraw.cpp
+CBVarDlg.cpp
+CfgCustAvionicsDlg.cpp
+CfgCustEnemyDlg.cpp
+CfgCustFlightDlg.cpp
+CfgCustGraphicsDlg.cpp
+CfgCustGraphicsDriverDlg.cpp
+CfgCustObjectDlg.cpp
+Generating Code...
+Compiling...
+CfgCustomDlg.cpp
+CfgCustTerrainDlg.cpp
+CfgCustWeaponDlg.cpp
+CfgGamePlayDlg.cpp
+CfgGraphicsDlg.cpp
+CfgJoyDlg.cpp
+CfgJoyFFDlg.cpp
+CfgMiscDlg.cpp
+CfgSoundDlg.cpp
+CfgViewsDlg.cpp
+CheatsDlg.cpp
+ChkPilotMission.cpp
+CmpSprite.cpp
+CommonButtons.cpp
+CommonSprite.cpp
+ConfigCustomKeyboard.cpp
+ConfigKeyboardNew.cpp
+ConfigMenu.cpp
+Credits.cpp
+CtlLoadout.cpp
+Generating Code...
+Compiling...
+CtlPilot.cpp
+CtlPlane.cpp
+CtlQckPilot.cpp
+CtlSngInvInfo.cpp
+CtlSngInvItem.cpp
+CtlToolPilotInfo.cpp
+CtlToolSquadInfo.cpp
+CtlWeapon.cpp
+DamageDlg.cpp
+DebMapOptionsDlg.cpp
+Debrief.cpp
+DebriefDetail.cpp
+DebriefDlg.cpp
+DebriefGroupDlg.cpp
+DebriefGroupSelDlg.cpp
+DebriefItemDlg.cpp
+DebriefMap.cpp
+DebriefStatementDlg.cpp
+DebriefStateSelectDlg.cpp
+DebriefView.cpp
+Z:\JF18\F18_SRC\Wrappers\DebriefView.cpp(2386) : warning C4101: 'dx' : unreferenced local variable
+Generating Code...
+Compiling...
+DeleteDlg.cpp
+DeleteLoadout.cpp
+DemoBrief.cpp
+DemoExit.cpp
+DemoIntroText.cpp
+DemoKeyboard.cpp
+DemoSorry.cpp
+DemoSplash.cpp
+DlgSuperClass.cpp
+EnterEdit.cpp
+EscortDlg.cpp
+EscortReleaseDlg.cpp
+EventActDamageDlg.cpp
+EventActFlagDlg.cpp
+EventActionSelDlg.cpp
+EventActMessDlg.cpp
+EventCondDlg.cpp
+EventDlg.cpp
+EventLog.cpp
+EventSelDlg.cpp
+Generating Code...
+Compiling...
+EyePointDlg.cpp
+F18ArmingTable.cpp
+FACDlg.cpp
+FenceDlg.cpp
+FighterSweepDlg.cpp
+FilterDlg.cpp
+Fixup.cpp
+FormationDlg.cpp
+FormOnDLg.cpp
+FormOnReleaseDlg.cpp
+FtpMgr.cpp
+FtpSession.cpp
+GameExit.cpp
+GenWarnDlg.cpp
+GoalEventDlg.cpp
+GroundObjectDlg.cpp
+GroundWarnDlg.cpp
+GroupDlg.cpp
+HelpDlg.cpp
+HoldHorses.cpp
+Generating Code...
+Compiling...
+HostLeftDlg.cpp
+HoverActionDlg.cpp
+InfoDlg.cpp
+InfoTip.cpp
+initdb.cpp
+InvEdit.cpp
+InvEditWnd.cpp
+JoyCalc.cpp
+JoyMsg.cpp
+KeyMsgDlg.cpp
+lang.cpp
+LayoutAircraft.cpp
+LegalScreen.cpp
+LoadKeyLayoutDlg.cpp
+LoadLoadout.cpp
+LoopProcess.cpp
+MapWnd.cpp
+MasterWnd.cpp
+MBAddSplash.cpp
+MBAntiShipActionDlg.cpp
+Generating Code...
+Compiling...
+MBASWActionDlg.cpp
+MBAttackTargetActionDlg.cpp
+MBBriefingSummaryDlg.cpp
+MBCheckListAddDlg.cpp
+MBCmd.cpp
+MBCommandDlg.cpp
+MBEnvDlg.cpp
+MBExitDlg.cpp
+MBFACActionDlg.cpp
+MBFileio.cpp
+MBFlowControl.cpp
+MBGotoSerial.cpp
+MBGPSMarkerDlg.cpp
+MBHelpWin.cpp
+MBLogSuppDlg.cpp
+MBMovingAreaEventDlg.cpp
+MBMVWPDlg.cpp
+MBSARDlg.cpp
+MBShipDlg.cpp
+MBShipWPDlg.cpp
+Generating Code...
+Compiling...
+MBStandDlg.cpp
+MBUserFlagActionDlg.cpp
+MBViewAction.cpp
+MBWeaponAreaGoalDlg.cpp
+MessageActionDlg.cpp
+MissBuild.cpp
+MissInfoDlg.cpp
+MissionEndEventDlg.cpp
+MissionImageView.cpp
+MissionLabelDlg.cpp
+MissionMapTab.cpp
+MltHostJoin.cpp
+MltHostOpts.cpp
+MltHostSetupMissionDlg.cpp
+MltJoinOpts.cpp
+MltMissionType.cpp
+MltPartyLine.cpp
+MltSessions.cpp
+MovingVehicleDlg.cpp
+MultiChatWnd.cpp
+Generating Code...
+Compiling...
+MultiMenu.cpp
+MultiMisc.cpp
+MultiMonitor.cpp
+NewJanesViewer.cpp
+NewWarnDlg.cpp
+ObjectEventDlg.cpp
+ObjectInfoDlg.cpp
+oldmb.cpp
+OpenAnim.cpp
+OpenLoadout.cpp
+OrbitDlg.cpp
+PackageDlg.cpp
+Pilot.cpp
+PilotStats.cpp
+PlaneDlg.cpp
+PlaneInfo.cpp
+PopulateDlg.cpp
+QckAirSelect.cpp
+QckDebrief.cpp
+QckLangDefs.cpp
+Generating Code...
+Compiling...
+QckMain.cpp
+QckMissionLoad.cpp
+QckOption.cpp
+QckPopUpWnd.cpp
+RandomGroupDlg.cpp
+RepStatic.cpp
+ROEDlg.cpp
+RTFView.cpp
+RTFWnd.cpp
+SaveKeyLayoutDlg.cpp
+SaveLdt.cpp
+SaveLoadout.cpp
+SEADDlg.cpp
+SelectGoalDlg.cpp
+SimLaunch.cpp
+SingleObjectGoalDlg.cpp
+SliderHorz.cpp
+SngAirframeStatus.cpp
+SngDebriefFltKills.cpp
+SngDebriefFltStats.cpp
+Generating Code...
+Compiling...
+SngDebriefFltStatus.cpp
+SngDebriefTimeLog.cpp
+SngMissionAirframe.cpp
+SngMissionBrief.cpp
+SngMissionCrew.cpp
+SngMissionCustomArm.cpp
+SngMissionIntel.cpp
+SngMissionLoad.cpp
+SngMissionLoadout.cpp
+SngMissionMap.cpp
+SngMissionOverview.cpp
+SngMissionTargeting.cpp
+StartWnd.cpp
+TacanDlg.cpp
+TakeOffDlg.cpp
+TankerActionDlg.cpp
+TargetLabelDlg.cpp
+TimeEventDlg.cpp
+ToolPilot.cpp
+ToolsMenu.cpp
+Generating Code...
+Compiling...
+ToolSquadron.cpp
+TrnMissionBrief.cpp
+TrnMissionCrew.cpp
+TrnMissionCustomArm.cpp
+TrnMissionIntel.cpp
+TrnMissionLoad.cpp
+TrnMissionLoadout.cpp
+TrnMissionMap.cpp
+TrnMissionOverview.cpp
+TrnMissionTargeting.cpp
+UserDecisionDlg.cpp
+VehicleIconDlg.cpp
+Viewer3D.cpp
+WarnDlg.cpp
+WarnGoalDlg.cpp
+WarnSetFlagDlg.cpp
+WayPointDlg.cpp
+WaypointIconDlg.cpp
+WayWarningDlg.cpp
+WndMgr.cpp
+Generating Code...
+Compiling...
+WorldLabelDlg.cpp
+WrapInterface.cpp
+Wrapper.cpp
+WrapperObjects.cpp
+WrapUtil.cpp
+Generating Code...
+Compiling...
+Resources.cpp
+Linking...
+   Creating library Z:\JF18\F18_SRC\Wrapper.lib and object Z:\JF18\F18_SRC\Wrapper.exp
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCCA8.tmp" with contents
+[
+/nologo /o".\Debug/Wrapper.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ActionSelectDlg.sbr
+.\Debug\AlertActionDlg.sbr
+.\Debug\AreaEventDlg.sbr
+.\Debug\AwacsActionDlg.sbr
+.\Debug\BaseWnd.sbr
+.\Debug\BombProfileDlg.sbr
+.\Debug\BriefingDlg.sbr
+.\Debug\BriefWPDlg.sbr
+.\Debug\BuilderDlg.sbr
+.\Debug\BuilderTargeting.sbr
+.\Debug\ButtonBar.sbr
+.\Debug\CamAirFrameInfo.sbr
+.\Debug\CamCrewStatus.sbr
+.\Debug\CamDelete.sbr
+.\Debug\CamDriver.sbr
+.\Debug\CamInventory.sbr
+.\Debug\CamMissionBrief.sbr
+.\Debug\CamMissionCrew.sbr
+.\Debug\CamMissionCustomArm.sbr
+.\Debug\CamMissionIntel.sbr
+.\Debug\CamMissionLoadout.sbr
+.\Debug\CamMissionMap.sbr
+.\Debug\CamMissionOverview.sbr
+.\Debug\CamMissionTargeting.sbr
+.\Debug\CampaignGoalDlg.sbr
+.\Debug\CampDebugDlg.sbr
+.\Debug\CampEvaluate.sbr
+.\Debug\CampGoalOverDlg.sbr
+.\Debug\CampResource.sbr
+.\Debug\CampRndDlg.sbr
+.\Debug\CampSupport.sbr
+.\Debug\CamSelect.sbr
+.\Debug\CamSetupDlg.sbr
+.\Debug\CamText.sbr
+.\Debug\CamVideo.sbr
+.\Debug\CapDlg.sbr
+.\Debug\CASDlg.sbr
+.\Debug\CBAddGlobalLinkDlg.sbr
+.\Debug\CBAddGroupDlg.sbr
+.\Debug\CBAddNodeDlg.sbr
+.\Debug\CBAddNodeResourceDlg.sbr
+.\Debug\CBAddVarDlg.sbr
+.\Debug\CBCampGroupDlg.sbr
+.\Debug\CBCampResourceModDlg.sbr
+.\Debug\CBGlobalLinkDlg.sbr
+.\Debug\CBLinkDlg.sbr
+.\Debug\CBNodeResourceDlg.sbr
+.\Debug\CBNodeVarDlg.sbr
+.\Debug\CBOptionsDlg.sbr
+.\Debug\CBResourceDlg.sbr
+.\Debug\CBSetupDlg.sbr
+.\Debug\CBuilder.sbr
+.\Debug\CBuilderDraw.sbr
+.\Debug\CBVarDlg.sbr
+.\Debug\CfgCustAvionicsDlg.sbr
+.\Debug\CfgCustEnemyDlg.sbr
+.\Debug\CfgCustFlightDlg.sbr
+.\Debug\CfgCustGraphicsDlg.sbr
+.\Debug\CfgCustGraphicsDriverDlg.sbr
+.\Debug\CfgCustObjectDlg.sbr
+.\Debug\CfgCustomDlg.sbr
+.\Debug\CfgCustTerrainDlg.sbr
+.\Debug\CfgCustWeaponDlg.sbr
+.\Debug\CfgGamePlayDlg.sbr
+.\Debug\CfgGraphicsDlg.sbr
+.\Debug\CfgJoyDlg.sbr
+.\Debug\CfgJoyFFDlg.sbr
+.\Debug\CfgMiscDlg.sbr
+.\Debug\CfgSoundDlg.sbr
+.\Debug\CfgViewsDlg.sbr
+.\Debug\CheatsDlg.sbr
+.\Debug\ChkPilotMission.sbr
+.\Debug\CmpSprite.sbr
+.\Debug\CommonButtons.sbr
+.\Debug\CommonSprite.sbr
+.\Debug\ConfigCustomKeyboard.sbr
+.\Debug\ConfigKeyboardNew.sbr
+.\Debug\ConfigMenu.sbr
+.\Debug\Credits.sbr
+.\Debug\CtlLoadout.sbr
+.\Debug\CtlPilot.sbr
+.\Debug\CtlPlane.sbr
+.\Debug\CtlQckPilot.sbr
+.\Debug\CtlSngInvInfo.sbr
+.\Debug\CtlSngInvItem.sbr
+.\Debug\CtlToolPilotInfo.sbr
+.\Debug\CtlToolSquadInfo.sbr
+.\Debug\CtlWeapon.sbr
+.\Debug\DamageDlg.sbr
+.\Debug\DebMapOptionsDlg.sbr
+.\Debug\Debrief.sbr
+.\Debug\DebriefDetail.sbr
+.\Debug\DebriefDlg.sbr
+.\Debug\DebriefGroupDlg.sbr
+.\Debug\DebriefGroupSelDlg.sbr
+.\Debug\DebriefItemDlg.sbr
+.\Debug\DebriefMap.sbr
+.\Debug\DebriefStatementDlg.sbr
+.\Debug\DebriefStateSelectDlg.sbr
+.\Debug\DebriefView.sbr
+.\Debug\DeleteDlg.sbr
+.\Debug\DeleteLoadout.sbr
+.\Debug\DemoBrief.sbr
+.\Debug\DemoExit.sbr
+.\Debug\DemoIntroText.sbr
+.\Debug\DemoKeyboard.sbr
+.\Debug\DemoSorry.sbr
+.\Debug\DemoSplash.sbr
+.\Debug\DlgSuperClass.sbr
+.\Debug\EnterEdit.sbr
+.\Debug\EscortDlg.sbr
+.\Debug\EscortReleaseDlg.sbr
+.\Debug\EventActDamageDlg.sbr
+.\Debug\EventActFlagDlg.sbr
+.\Debug\EventActionSelDlg.sbr
+.\Debug\EventActMessDlg.sbr
+.\Debug\EventCondDlg.sbr
+.\Debug\EventDlg.sbr
+.\Debug\EventLog.sbr
+.\Debug\EventSelDlg.sbr
+.\Debug\EyePointDlg.sbr
+.\Debug\F18ArmingTable.sbr
+.\Debug\FACDlg.sbr
+.\Debug\FenceDlg.sbr
+.\Debug\FighterSweepDlg.sbr
+.\Debug\FilterDlg.sbr
+.\Debug\Fixup.sbr
+.\Debug\FormationDlg.sbr
+.\Debug\FormOnDLg.sbr
+.\Debug\FormOnReleaseDlg.sbr
+.\Debug\FtpMgr.sbr
+.\Debug\FtpSession.sbr
+.\Debug\GameExit.sbr
+.\Debug\GenWarnDlg.sbr
+.\Debug\GoalEventDlg.sbr
+.\Debug\GroundObjectDlg.sbr
+.\Debug\GroundWarnDlg.sbr
+.\Debug\GroupDlg.sbr
+.\Debug\HelpDlg.sbr
+.\Debug\HoldHorses.sbr
+.\Debug\HostLeftDlg.sbr
+.\Debug\HoverActionDlg.sbr
+.\Debug\InfoDlg.sbr
+.\Debug\InfoTip.sbr
+.\Debug\initdb.sbr
+.\Debug\InvEdit.sbr
+.\Debug\InvEditWnd.sbr
+.\Debug\JoyCalc.sbr
+.\Debug\JoyMsg.sbr
+.\Debug\KeyMsgDlg.sbr
+.\Debug\lang.sbr
+.\Debug\LayoutAircraft.sbr
+.\Debug\LegalScreen.sbr
+.\Debug\LoadKeyLayoutDlg.sbr
+.\Debug\LoadLoadout.sbr
+.\Debug\LoopProcess.sbr
+.\Debug\MapWnd.sbr
+.\Debug\MasterWnd.sbr
+.\Debug\MBAddSplash.sbr
+.\Debug\MBAntiShipActionDlg.sbr
+.\Debug\MBASWActionDlg.sbr
+.\Debug\MBAttackTargetActionDlg.sbr
+.\Debug\MBBriefingSummaryDlg.sbr
+.\Debug\MBCheckListAddDlg.sbr
+.\Debug\MBCmd.sbr
+.\Debug\MBCommandDlg.sbr
+.\Debug\MBEnvDlg.sbr
+.\Debug\MBExitDlg.sbr
+.\Debug\MBFACActionDlg.sbr
+.\Debug\MBFileio.sbr
+.\Debug\MBFlowControl.sbr
+.\Debug\MBGotoSerial.sbr
+.\Debug\MBGPSMarkerDlg.sbr
+.\Debug\MBHelpWin.sbr
+.\Debug\MBLogSuppDlg.sbr
+.\Debug\MBMovingAreaEventDlg.sbr
+.\Debug\MBMVWPDlg.sbr
+.\Debug\MBSARDlg.sbr
+.\Debug\MBShipDlg.sbr
+.\Debug\MBShipWPDlg.sbr
+.\Debug\MBStandDlg.sbr
+.\Debug\MBUserFlagActionDlg.sbr
+.\Debug\MBViewAction.sbr
+.\Debug\MBWeaponAreaGoalDlg.sbr
+.\Debug\MessageActionDlg.sbr
+.\Debug\MissBuild.sbr
+.\Debug\MissInfoDlg.sbr
+.\Debug\MissionEndEventDlg.sbr
+.\Debug\MissionImageView.sbr
+.\Debug\MissionLabelDlg.sbr
+.\Debug\MissionMapTab.sbr
+.\Debug\MltHostJoin.sbr
+.\Debug\MltHostOpts.sbr
+.\Debug\MltHostSetupMissionDlg.sbr
+.\Debug\MltJoinOpts.sbr
+.\Debug\MltMissionType.sbr
+.\Debug\MltPartyLine.sbr
+.\Debug\MltSessions.sbr
+.\Debug\MovingVehicleDlg.sbr
+.\Debug\MultiChatWnd.sbr
+.\Debug\MultiMenu.sbr
+.\Debug\MultiMisc.sbr
+.\Debug\MultiMonitor.sbr
+.\Debug\NewJanesViewer.sbr
+.\Debug\NewWarnDlg.sbr
+.\Debug\ObjectEventDlg.sbr
+.\Debug\ObjectInfoDlg.sbr
+.\Debug\oldmb.sbr
+.\Debug\OpenAnim.sbr
+.\Debug\OpenLoadout.sbr
+.\Debug\OrbitDlg.sbr
+.\Debug\PackageDlg.sbr
+.\Debug\Pilot.sbr
+.\Debug\PilotStats.sbr
+.\Debug\PlaneDlg.sbr
+.\Debug\PlaneInfo.sbr
+.\Debug\PopulateDlg.sbr
+.\Debug\QckAirSelect.sbr
+.\Debug\QckDebrief.sbr
+.\Debug\QckLangDefs.sbr
+.\Debug\QckMain.sbr
+.\Debug\QckMissionLoad.sbr
+.\Debug\QckOption.sbr
+.\Debug\QckPopUpWnd.sbr
+.\Debug\RandomGroupDlg.sbr
+.\Debug\RepStatic.sbr
+.\Debug\Resources.sbr
+.\Debug\ROEDlg.sbr
+.\Debug\RTFView.sbr
+.\Debug\RTFWnd.sbr
+.\Debug\SaveKeyLayoutDlg.sbr
+.\Debug\SaveLdt.sbr
+.\Debug\SaveLoadout.sbr
+.\Debug\SEADDlg.sbr
+.\Debug\SelectGoalDlg.sbr
+.\Debug\SimLaunch.sbr
+.\Debug\SingleObjectGoalDlg.sbr
+.\Debug\SliderHorz.sbr
+.\Debug\SngAirframeStatus.sbr
+.\Debug\SngDebriefFltKills.sbr
+.\Debug\SngDebriefFltStats.sbr
+.\Debug\SngDebriefFltStatus.sbr
+.\Debug\SngDebriefTimeLog.sbr
+.\Debug\SngMissionAirframe.sbr
+.\Debug\SngMissionBrief.sbr
+.\Debug\SngMissionCrew.sbr
+.\Debug\SngMissionCustomArm.sbr
+.\Debug\SngMissionIntel.sbr
+.\Debug\SngMissionLoad.sbr
+.\Debug\SngMissionLoadout.sbr
+.\Debug\SngMissionMap.sbr
+.\Debug\SngMissionOverview.sbr
+.\Debug\SngMissionTargeting.sbr
+.\Debug\StartWnd.sbr
+.\Debug\TacanDlg.sbr
+.\Debug\TakeOffDlg.sbr
+.\Debug\TankerActionDlg.sbr
+.\Debug\TargetLabelDlg.sbr
+.\Debug\TimeEventDlg.sbr
+.\Debug\ToolPilot.sbr
+.\Debug\ToolsMenu.sbr
+.\Debug\ToolSquadron.sbr
+.\Debug\TrnMissionBrief.sbr
+.\Debug\TrnMissionCrew.sbr
+.\Debug\TrnMissionCustomArm.sbr
+.\Debug\TrnMissionIntel.sbr
+.\Debug\TrnMissionLoad.sbr
+.\Debug\TrnMissionLoadout.sbr
+.\Debug\TrnMissionMap.sbr
+.\Debug\TrnMissionOverview.sbr
+.\Debug\TrnMissionTargeting.sbr
+.\Debug\UserDecisionDlg.sbr
+.\Debug\VehicleIconDlg.sbr
+.\Debug\Viewer3D.sbr
+.\Debug\WarnDlg.sbr
+.\Debug\WarnGoalDlg.sbr
+.\Debug\WarnSetFlagDlg.sbr
+.\Debug\WayPointDlg.sbr
+.\Debug\WaypointIconDlg.sbr
+.\Debug\WayWarningDlg.sbr
+.\Debug\WndMgr.sbr
+.\Debug\WorldLabelDlg.sbr
+.\Debug\WrapInterface.sbr
+.\Debug\Wrapper.sbr
+.\Debug\WrapperObjects.sbr
+.\Debug\WrapUtil.sbr]
+Creating command line "bscmake.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPCCA8.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPDDF7.bat" with contents
+[
+@echo off
+copy ".\bin\*.dll" "..\bin\Debug"
+]
+Creating command line "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPDDF7.bat"
+
+.\bin\Wrapper.dll
+        1 file(s) copied.
+<h3>
+--------------------Configuration: xvars - Win32 Debug--------------------
+</h3>
+
+<h3>
+--------------------Configuration: OSI3Dfx - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE1BF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I "." /I ".." /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "GAME_VERSION" /Fr".\Debug/" /Fp".\Debug/OSI3Dfx.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp"
+"Z:\JF18\F18_SRC\OSI3Dfx\grfont3dfx.cpp"
+"Z:\JF18\F18_SRC\OSI3Dfx\grprims3dfx.cpp"
+"Z:\JF18\F18_SRC\OSI3Dfx\grTexture3Dfx.cpp"
+"Z:\JF18\F18_SRC\OSI3Dfx\imports.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPE1BF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\OSI3dfx.lib"  .\Debug\3dfx.obj .\Debug\grfont3dfx.obj .\Debug\grprims3dfx.obj .\Debug\grTexture3Dfx.obj .\Debug\imports.obj "
+<h3>Output Window</h3>
+Compiling...
+3dfx.cpp
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(872) : warning C4101: 'light' : unreferenced local variable
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(873) : warning C4101: 'color' : unreferenced local variable
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(871) : warning C4101: 'i' : unreferenced local variable
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(874) : warning C4101: 'pt' : unreferenced local variable
+grfont3dfx.cpp
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(1324) : warning C4700: local variable 'r' used without having been initialized
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(1324) : warning C4700: local variable 'g' used without having been initialized
+Z:\JF18\F18_SRC\OSI3Dfx\3dfx.cpp(1324) : warning C4700: local variable 'b' used without having been initialized
+grprims3dfx.cpp
+grTexture3Dfx.cpp
+imports.cpp
+Creating library...
+Creating command line "bscmake.exe /nologo /o".\Debug/OSI3Dfx.bsc"  .\Debug\3dfx.sbr .\Debug\grfont3dfx.sbr .\Debug\grprims3dfx.sbr .\Debug\grTexture3Dfx.sbr .\Debug\imports.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: OSI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF34D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I "..\OSI3dfx" /I ".." /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "GAME_VERSION" /Fr".\Debug/" /Fp".\Debug/OSI.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\OSI\3ddriver.cpp"
+"Z:\JF18\F18_SRC\OSI\buffer.cpp"
+"Z:\JF18\F18_SRC\OSI\cdopen.cpp"
+"Z:\JF18\F18_SRC\OSI\color.cpp"
+"Z:\JF18\F18_SRC\OSI\easymem.cpp"
+"Z:\JF18\F18_SRC\OSI\family.cpp"
+"Z:\JF18\F18_SRC\OSI\fmath.cpp"
+"Z:\JF18\F18_SRC\OSI\gr3dxl.cpp"
+"Z:\JF18\F18_SRC\OSI\grbuff.cpp"
+"Z:\JF18\F18_SRC\OSI\grd3d.cpp"
+"Z:\JF18\F18_SRC\OSI\grd3dtex.cpp"
+"Z:\JF18\F18_SRC\OSI\grddraw.cpp"
+"Z:\JF18\F18_SRC\OSI\grfileio.cpp"
+"Z:\JF18\F18_SRC\OSI\grfont.cpp"
+"Z:\JF18\F18_SRC\OSI\grprims.cpp"
+"Z:\JF18\F18_SRC\OSI\grvars.cpp"
+"Z:\JF18\F18_SRC\OSI\lights.cpp"
+"Z:\JF18\F18_SRC\OSI\polydraw.cpp"
+"Z:\JF18\F18_SRC\OSI\regit.cpp"
+"Z:\JF18\F18_SRC\OSI\roads.cpp"
+"Z:\JF18\F18_SRC\OSI\secondp.cpp"
+"Z:\JF18\F18_SRC\OSI\shadow.cpp"
+"Z:\JF18\F18_SRC\OSI\simland.cpp"
+"Z:\JF18\F18_SRC\OSI\tercache.cpp"
+"Z:\JF18\F18_SRC\OSI\terrain.cpp"
+"Z:\JF18\F18_SRC\OSI\terrlow.cpp"
+"Z:\JF18\F18_SRC\OSI\textures.cpp"
+"Z:\JF18\F18_SRC\OSI\wropen.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF34D.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF34E.tmp" with contents
+[
+/nologo /out:"..\OSI.lib" 
+.\Debug\3ddriver.obj
+.\Debug\buffer.obj
+.\Debug\cdopen.obj
+.\Debug\color.obj
+.\Debug\easymem.obj
+.\Debug\family.obj
+.\Debug\fmath.obj
+.\Debug\gr3dxl.obj
+.\Debug\grbuff.obj
+.\Debug\grd3d.obj
+.\Debug\grd3dtex.obj
+.\Debug\grddraw.obj
+.\Debug\grfileio.obj
+.\Debug\grfont.obj
+.\Debug\grprims.obj
+.\Debug\grvars.obj
+.\Debug\lights.obj
+.\Debug\polydraw.obj
+.\Debug\regit.obj
+.\Debug\roads.obj
+.\Debug\secondp.obj
+.\Debug\shadow.obj
+.\Debug\simland.obj
+.\Debug\tercache.obj
+.\Debug\terrain.obj
+.\Debug\terrlow.obj
+.\Debug\textures.obj
+.\Debug\wropen.obj
+]
+Creating command line "link.exe -lib @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSPF34E.tmp"
+<h3>Output Window</h3>
+Compiling...
+3ddriver.cpp
+buffer.cpp
+cdopen.cpp
+color.cpp
+easymem.cpp
+family.cpp
+fmath.cpp
+gr3dxl.cpp
+grbuff.cpp
+grd3d.cpp
+grd3dtex.cpp
+grddraw.cpp
+grfileio.cpp
+grfont.cpp
+grprims.cpp
+grvars.cpp
+lights.cpp
+polydraw.cpp
+regit.cpp
+roads.cpp
+secondp.cpp
+shadow.cpp
+simland.cpp
+tercache.cpp
+terrain.cpp
+terrlow.cpp
+textures.cpp
+wropen.cpp
+Creating library...
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP227A.tmp" with contents
+[
+/nologo /o".\Debug/OSI.bsc" 
+.\Debug\3ddriver.sbr
+.\Debug\buffer.sbr
+.\Debug\cdopen.sbr
+.\Debug\color.sbr
+.\Debug\easymem.sbr
+.\Debug\family.sbr
+.\Debug\fmath.sbr
+.\Debug\gr3dxl.sbr
+.\Debug\grbuff.sbr
+.\Debug\grd3d.sbr
+.\Debug\grd3dtex.sbr
+.\Debug\grddraw.sbr
+.\Debug\grfileio.sbr
+.\Debug\grfont.sbr
+.\Debug\grprims.sbr
+.\Debug\grvars.sbr
+.\Debug\lights.sbr
+.\Debug\polydraw.sbr
+.\Debug\regit.sbr
+.\Debug\roads.sbr
+.\Debug\secondp.sbr
+.\Debug\shadow.sbr
+.\Debug\simland.sbr
+.\Debug\tercache.sbr
+.\Debug\terrain.sbr
+.\Debug\terrlow.sbr
+.\Debug\textures.sbr
+.\Debug\wropen.sbr]
+Creating command line "bscmake.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP227A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: F18 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/F18res.res" /d "_DEBUG" "Z:\JF18\F18_SRC\F18res.rc"" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP29AB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I ".\OSI" /I ".\OSI3dfx" /I "Z:\JF18\F18_SRC" /I "Z:\JF18\F18_SRC\osi" /I "Z:\JF18\F18_SRC\osi3dfx" /I "Z:\JF18\F18_SRC\wrappers" /I "Z:\JF18\F18_SRC\skunkcmp" /I "Z:\JF18\F18_SRC\skunkctl" /I "Z:\JF18\F18_SRC\skunknet" /I "Z:\JF18\F18_SRC\skunksnd" /I "Z:\JF18\F18_SRC\skunkutl" /I "Z:\JF18\F18_SRC\skunkvid" /I "Z:\JF18\F18_SRC\UV" /I "Z:\JF18\F18_SRC\skunkff" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "GAME_VERSION" /Fr".\Debug/" /Fp".\Debug/f18.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"Z:\JF18\F18_SRC\3dxl.cpp"
+"Z:\JF18\F18_SRC\aaa.cpp"
+"Z:\JF18\F18_SRC\aero.cpp"
+"Z:\JF18\F18_SRC\agradar.cpp"
+"Z:\JF18\F18_SRC\aiflight.cpp"
+"Z:\JF18\F18_SRC\airdam.cpp"
+"Z:\JF18\F18_SRC\autoptl.cpp"
+"Z:\JF18\F18_SRC\avmodes.cpp"
+"Z:\JF18\F18_SRC\avsensor.cpp"
+"Z:\JF18\F18_SRC\behave.cpp"
+"Z:\JF18\F18_SRC\carrtank.cpp"
+"Z:\JF18\F18_SRC\clouds.cpp"
+"Z:\JF18\F18_SRC\Cockpit.cpp"
+"Z:\JF18\F18_SRC\cockpitv.cpp"
+"Z:\JF18\F18_SRC\cpitinterface.cpp"
+"Z:\JF18\F18_SRC\cpitsystems.cpp"
+"Z:\JF18\F18_SRC\DebugHelper.cpp"
+"Z:\JF18\F18_SRC\DemoRegistry.cpp"
+"Z:\JF18\F18_SRC\dogfite.cpp"
+"Z:\JF18\F18_SRC\engine.cpp"
+"Z:\JF18\F18_SRC\Evaluate.cpp"
+"Z:\JF18\F18_SRC\evlog.cpp"
+"Z:\JF18\F18_SRC\Flames.cpp"
+"Z:\JF18\F18_SRC\flight.cpp"
+"Z:\JF18\F18_SRC\flightfx.cpp"
+"Z:\JF18\F18_SRC\flir.cpp"
+"Z:\JF18\F18_SRC\globvars.CPP"
+"Z:\JF18\F18_SRC\gnddam.cpp"
+"Z:\JF18\F18_SRC\grnddef.cpp"
+"Z:\JF18\F18_SRC\hud.cpp"
+"Z:\JF18\F18_SRC\hudprims.cpp"
+"Z:\JF18\F18_SRC\initdb.cpp"
+"Z:\JF18\F18_SRC\input.cpp"
+"Z:\JF18\F18_SRC\Joystuff.cpp"
+"Z:\JF18\F18_SRC\keyfunc.cpp"
+"Z:\JF18\F18_SRC\keysmsg.cpp"
+"Z:\JF18\F18_SRC\keystuff.cpp"
+"Z:\JF18\F18_SRC\langtext.cpp"
+"Z:\JF18\F18_SRC\langtxt2.cpp"
+"Z:\JF18\F18_SRC\loadmiss.cpp"
+"Z:\JF18\F18_SRC\los.cpp"
+"Z:\JF18\F18_SRC\Main.cpp"
+"Z:\JF18\F18_SRC\MemMap.cpp"
+"Z:\JF18\F18_SRC\missionhelp.cpp"
+"Z:\JF18\F18_SRC\mpd.cpp"
+"Z:\JF18\F18_SRC\multiai.cpp"
+"Z:\JF18\F18_SRC\netchat.cpp"
+"Z:\JF18\F18_SRC\NetWork.cpp"
+"Z:\JF18\F18_SRC\padlock.cpp"
+"Z:\JF18\F18_SRC\particle.cpp"
+"Z:\JF18\F18_SRC\radar.cpp"
+"Z:\JF18\F18_SRC\render.cpp"
+"Z:\JF18\F18_SRC\rendini.cpp"
+"Z:\JF18\F18_SRC\Resources.cpp"
+"Z:\JF18\F18_SRC\sflight.cpp"
+"Z:\JF18\F18_SRC\simmain.cpp"
+"Z:\JF18\F18_SRC\Sprite.cpp"
+"Z:\JF18\F18_SRC\ssound.cpp"
+"Z:\JF18\F18_SRC\ufc.cpp"
+"Z:\JF18\F18_SRC\vehicles.cpp"
+"Z:\JF18\F18_SRC\Views.cpp"
+"Z:\JF18\F18_SRC\weapmanage.cpp"
+"Z:\JF18\F18_SRC\weapons.cpp"
+"Z:\JF18\F18_SRC\WrapGrab.cpp"
+]
+Creating command line "cl.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP29AB.tmp" 
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP29AC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib winmm.lib ddraw.lib dxguid.lib dsound.lib OSI.lib OSI3dfx.lib SkunkCmp.lib SkunkNet.lib SkunkSnd.lib SkunkVid.lib UV.lib MsApi.lib SkunkCtl.lib SkunkFF.lib /nologo /subsystem:windows /incremental:no /pdb:".\Debug/F18.pdb" /map:".\Debug/F18.map" /debug /machine:I386 /nodefaultlib:"libc.lib" /nodefaultlib:"libcmt.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"msvcrtd.lib" /def:".\F18.def" /out:".\bin\Debug\F18.exe" /libpath:"Z:\JF18\F18_SRC" /libpath:"Z:\JF18\F18_SRC\osi" /libpath:"Z:\JF18\F18_SRC\osi3dfx" /libpath:"Z:\JF18\F18_SRC\wrappers" /libpath:"Z:\JF18\F18_SRC\skunkcmp" /libpath:"Z:\JF18\F18_SRC\skunkctl" /libpath:"Z:\JF18\F18_SRC\skunknet" /libpath:"Z:\JF18\F18_SRC\skunksnd" /libpath:"Z:\JF18\F18_SRC\skunkvid" /libpath:"Z:\JF18\F18_SRC\skunkutl" /libpath:"Z:\JF18\F18_SRC\UV" 
+.\Debug\3dxl.obj
+.\Debug\aaa.obj
+.\Debug\aero.obj
+.\Debug\agradar.obj
+.\Debug\aiflight.obj
+.\Debug\airdam.obj
+.\Debug\autoptl.obj
+.\Debug\avmodes.obj
+.\Debug\avsensor.obj
+.\Debug\behave.obj
+.\Debug\carrtank.obj
+.\Debug\clouds.obj
+.\Debug\Cockpit.obj
+.\Debug\cockpitv.obj
+.\Debug\cpitinterface.obj
+.\Debug\cpitsystems.obj
+.\Debug\DebugHelper.obj
+.\Debug\DemoRegistry.obj
+.\Debug\dogfite.obj
+.\Debug\engine.obj
+.\Debug\Evaluate.obj
+.\Debug\evlog.obj
+.\Debug\Flames.obj
+.\Debug\flight.obj
+.\Debug\flightfx.obj
+.\Debug\flir.obj
+.\Debug\globvars.obj
+.\Debug\gnddam.obj
+.\Debug\grnddef.obj
+.\Debug\hud.obj
+.\Debug\hudprims.obj
+.\Debug\initdb.obj
+.\Debug\input.obj
+.\Debug\Joystuff.obj
+.\Debug\keyfunc.obj
+.\Debug\keysmsg.obj
+.\Debug\keystuff.obj
+.\Debug\langtext.obj
+.\Debug\langtxt2.obj
+.\Debug\loadmiss.obj
+.\Debug\los.obj
+.\Debug\Main.obj
+.\Debug\MemMap.obj
+.\Debug\missionhelp.obj
+.\Debug\mpd.obj
+.\Debug\multiai.obj
+.\Debug\netchat.obj
+.\Debug\NetWork.obj
+.\Debug\padlock.obj
+.\Debug\particle.obj
+.\Debug\radar.obj
+.\Debug\render.obj
+.\Debug\rendini.obj
+.\Debug\Resources.obj
+.\Debug\sflight.obj
+.\Debug\simmain.obj
+.\Debug\Sprite.obj
+.\Debug\ssound.obj
+.\Debug\ufc.obj
+.\Debug\vehicles.obj
+.\Debug\Views.obj
+.\Debug\weapmanage.obj
+.\Debug\weapons.obj
+.\Debug\WrapGrab.obj
+.\Debug\F18res.res
+.\OSI.lib
+.\OSI3dfx.lib
+.\SkunkCmp.lib
+.\SkunkCtl.lib
+.\SkunkFF.lib
+.\SkunkNet.lib
+.\SkunkSnd.lib
+.\SkunkUtl.lib
+.\SkunkVid.lib
+.\UV.lib
+.\Wrapper.lib
+]
+Creating command line "link.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP29AC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+3dxl.cpp
+aaa.cpp
+aero.cpp
+agradar.cpp
+aiflight.cpp
+airdam.cpp
+autoptl.cpp
+avmodes.cpp
+avsensor.cpp
+behave.cpp
+carrtank.cpp
+clouds.cpp
+Cockpit.cpp
+cockpitv.cpp
+cpitinterface.cpp
+cpitsystems.cpp
+DebugHelper.cpp
+DemoRegistry.cpp
+dogfite.cpp
+engine.cpp
+Z:\JF18\F18_SRC\engine.cpp(394) : warning C4101: 'Frac' : unreferenced local variable
+Z:\JF18\F18_SRC\engine.cpp(394) : warning C4101: 'Dist' : unreferenced local variable
+Z:\JF18\F18_SRC\engine.cpp(393) : warning C4101: 'Dt' : unreferenced local variable
+Z:\JF18\F18_SRC\engine.cpp(394) : warning C4101: 'NumSteps' : unreferenced local variable
+Z:\JF18\F18_SRC\engine.cpp(394) : warning C4101: 'Time' : unreferenced local variable
+Evaluate.cpp
+evlog.cpp
+Flames.cpp
+flight.cpp
+Z:\JF18\F18_SRC\flight.cpp(1542) : warning C4508: 'DoBrakes' : function should return a value; 'void' return type assumed
+Z:\JF18\F18_SRC\flight.cpp(2396) : warning C4101: 'szTxt' : unreferenced local variable
+flightfx.cpp
+flir.cpp
+globvars.CPP
+gnddam.cpp
+grnddef.cpp
+hud.cpp
+hudprims.cpp
+initdb.cpp
+input.cpp
+Joystuff.cpp
+keyfunc.cpp
+keysmsg.cpp
+keystuff.cpp
+langtext.cpp
+langtxt2.cpp
+loadmiss.cpp
+los.cpp
+Main.cpp
+MemMap.cpp
+missionhelp.cpp
+mpd.cpp
+multiai.cpp
+netchat.cpp
+NetWork.cpp
+padlock.cpp
+particle.cpp
+radar.cpp
+render.cpp
+rendini.cpp
+Resources.cpp
+sflight.cpp
+simmain.cpp
+Sprite.cpp
+ssound.cpp
+ufc.cpp
+vehicles.cpp
+Views.cpp
+weapmanage.cpp
+weapons.cpp
+WrapGrab.cpp
+Linking...
+   Creating library .\bin\Debug\F18.lib and object .\bin\Debug\F18.exp
+Creating temporary file "C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP127.tmp" with contents
+[
+/nologo /o".\Debug/f18.bsc" 
+.\Debug\3dxl.sbr
+.\Debug\aaa.sbr
+.\Debug\aero.sbr
+.\Debug\agradar.sbr
+.\Debug\aiflight.sbr
+.\Debug\airdam.sbr
+.\Debug\autoptl.sbr
+.\Debug\avmodes.sbr
+.\Debug\avsensor.sbr
+.\Debug\behave.sbr
+.\Debug\carrtank.sbr
+.\Debug\clouds.sbr
+.\Debug\Cockpit.sbr
+.\Debug\cockpitv.sbr
+.\Debug\cpitinterface.sbr
+.\Debug\cpitsystems.sbr
+.\Debug\DebugHelper.sbr
+.\Debug\DemoRegistry.sbr
+.\Debug\dogfite.sbr
+.\Debug\engine.sbr
+.\Debug\Evaluate.sbr
+.\Debug\evlog.sbr
+.\Debug\Flames.sbr
+.\Debug\flight.sbr
+.\Debug\flightfx.sbr
+.\Debug\flir.sbr
+.\Debug\globvars.sbr
+.\Debug\gnddam.sbr
+.\Debug\grnddef.sbr
+.\Debug\hud.sbr
+.\Debug\hudprims.sbr
+.\Debug\initdb.sbr
+.\Debug\input.sbr
+.\Debug\Joystuff.sbr
+.\Debug\keyfunc.sbr
+.\Debug\keysmsg.sbr
+.\Debug\keystuff.sbr
+.\Debug\langtext.sbr
+.\Debug\langtxt2.sbr
+.\Debug\loadmiss.sbr
+.\Debug\los.sbr
+.\Debug\Main.sbr
+.\Debug\MemMap.sbr
+.\Debug\missionhelp.sbr
+.\Debug\mpd.sbr
+.\Debug\multiai.sbr
+.\Debug\netchat.sbr
+.\Debug\NetWork.sbr
+.\Debug\padlock.sbr
+.\Debug\particle.sbr
+.\Debug\radar.sbr
+.\Debug\render.sbr
+.\Debug\rendini.sbr
+.\Debug\Resources.sbr
+.\Debug\sflight.sbr
+.\Debug\simmain.sbr
+.\Debug\Sprite.sbr
+.\Debug\ssound.sbr
+.\Debug\ufc.sbr
+.\Debug\vehicles.sbr
+.\Debug\Views.sbr
+.\Debug\weapmanage.sbr
+.\Debug\weapons.sbr
+.\Debug\WrapGrab.sbr]
+Creating command line "bscmake.exe @C:\Users\FREDER~1.MET\AppData\Local\Temp\RSP127.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+F18.exe - 0 error(s), 23 warning(s)
+</pre>
+</body>
+</html>

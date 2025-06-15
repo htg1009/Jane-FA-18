@@ -1,0 +1,382 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "F18"=.\f18.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/f18", LFBAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name OSI3Dfx
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name OSI
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkSnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkUtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkVid
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UV
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Wrapper
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name xvars
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "OSI"=.\OSI\OSI.DSP - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/OSI", JAAAAAAA
+    .\osi
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name xvars
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "OSI3Dfx"=.\OSI3Dfx\OSI3Dfx.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/OSI3Dfx", ELBAAAAA
+    .\osi3dfx
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name xvars
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkCmp"=.\SkunkCmp\SkunkCmp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkCmp", UKBAAAAA
+    .\skunkcmp
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SkunkCtl"=.\SkunkCtl\SkunkCtl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkCtl", JEBAAAAA
+    .\skunkctl
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkFF"=.\SkunkFF\SkunkFF.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkFF", EAAAAAAA
+    .\skunkff
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkNet"=.\SkunkNet\SkunkNet.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkNet", QKBAAAAA
+    .\skunknet
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkSnd"=.\SkunkSnd\SkunkSnd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkSnd", SDBAAAAA
+    .\skunksnd
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkUtl"=.\SkunkUtl\SkunkUtl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkUtl", VLBAAAAA
+    .\skunkutl
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkSnd
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SkunkVid"=.\SkunkVid\SkunkVid.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/SkunkVid", JKBAAAAA
+    .\skunkvid
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkSnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkUtl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "UV"=.\UV\UV.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/UV", DKBAAAAA
+    .\uv
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkSnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkUtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkVid
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Wrapper"=.\Wrappers\Wrapper.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/Wrapper", MCAAAAAA
+    .\wrappers
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SkunkUtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UV
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkSnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkVid
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCmp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkCtl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SkunkFF
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "xvars"=.\xvars\xvars.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18/xvars", SLBAAAAA
+    .\xvars
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Wrapper
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/VC6/F18", CAAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
